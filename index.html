@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>User Feedback</h1>
+  <form id="feedbackForm">
+    <label>
+      Name: <input type="text" name="name" required>
+    </label>
+    <label>
+      Email: <input type="email" name="email" required>
+    </label>
+    <label>
+      Feedback:
+      <textarea name="message" rows="4" required></textarea>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="output" class="hidden">
+    <h2>Submitted Feedback</h2>
+    <p><strong>Name:</strong> <span id="outName"></span></p>
+    <p><strong>Email:</strong> <span id="outEmail"></span></p>
+    <p><strong>Message:</strong> <span id="outMessage"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

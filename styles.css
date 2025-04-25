@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#output {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
